@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cancha sintética de fútbol con reservas en línea. Césped de última generación, iluminación LED, vestidores y parqueadero. Reserva tu cancha hoy." />
+  <meta name="theme-color" content="#0d3b2a" />
+  <title>SINTÉTICA ARENA · Reserva tu cancha de fútbol</title>
+
+  <!-- Open Graph / Redes sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SINTÉTICA ARENA · Reserva tu cancha de fútbol" />
+  <meta property="og:description" content="Césped de última generación, iluminación LED, vestidores y parqueadero. Reserva tu cancha en línea en segundos." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1459865264687-595d652de67e?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:locale" content="es_CO" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SINTÉTICA ARENA · Reserva tu cancha de fútbol" />
+  <meta name="twitter:description" content="Césped de última generación, iluminación LED, vestidores y parqueadero. Reserva tu cancha en línea en segundos." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1459865264687-595d652de67e?auto=format&fit=crop&w=1200&q=80" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+</head>
+<body>
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo">
+        <span class="logo__ball"><i class="fa-solid fa-futbol"></i></span>
+        <span class="logo__text">SINTÉTICA<span>ARENA</span></span>
+      </a>
+
+      <nav class="nav__menu" id="navMenu">
+        <a href="#inicio" class="nav__link">Inicio</a>
+        <a href="#servicios" class="nav__link">Instalaciones</a>
+        <a href="#precios" class="nav__link">Precios</a>
+        <a href="#galeria" class="nav__link">Galería</a>
+        <a href="#reservar" class="nav__link">Reservar</a>
+        <a href="#opiniones" class="nav__link">Opiniones</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+        <a href="#reservar" class="btn btn--sm btn--accent nav__cta">Reservar ahora</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" style="background-image:url('img/hero.jpg')"></div>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+      <span class="hero__badge"><i class="fa-solid fa-bolt"></i> Reserva en línea 24/7</span>
+      <h1 class="hero__title">Juega en la mejor<br /><span>cancha sintética</span></h1>
+      <p class="hero__subtitle">Césped de última generación, iluminación LED profesional y espacios pensados para que solo te preocupes por ganar.</p>
+
+      <div class="hero__actions">
+        <a href="#reservar" class="btn btn--accent btn--lg"><i class="fa-regular fa-calendar-check"></i> Reservar mi cancha</a>
+        <a href="#precios" class="btn btn--ghost btn--lg"><i class="fa-solid fa-tag"></i> Ver precios</a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat"><strong data-count="3">0</strong><span>Canchas</span></div>
+        <div class="stat"><strong data-count="100" data-suffix="%">0</strong><span>Iluminación LED</span></div>
+        <div class="stat"><strong data-count="5000" data-suffix="+">0</strong><span>Jugadores</span></div>
+        <div class="stat"><strong data-count="10" data-suffix=" años">0</strong><span>De experiencia</span></div>
+      </div>
+    </div>
+
+    <a href="#servicios" class="hero__scroll" aria-label="Bajar">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== SERVICIOS / INSTALACIONES ===== -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="tag">Instalaciones</span>
+        <h2 class="section__title">Todo lo que necesitas para jugar</h2>
+        <p class="section__lead">Cuidamos cada detalle para que tu único objetivo sea el próximo gol.</p>
+      </div>
+
+      <div class="grid grid--3 services">
+        <article class="card service reveal">
+          <div class="service__icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3>Césped de última generación</h3>
+          <p>Gramilla sintética de alta densidad, suave y con excelente drenaje para jugar todo el año.</p>
+        </article>
+
+        <article class="card service reveal">
+          <div class="service__icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <h3>Iluminación LED profesional</h3>
+          <p>Luz uniforme y potente en toda la cancha para que las noches se jueguen como el día.</p>
+        </article>
+
+        <article class="card service reveal">
+          <div class="service__icon"><i class="fa-solid fa-shower"></i></div>
+          <h3>Vestidores y duchas</h3>
+          <p>Vestidores limpios, lockers y duchas con agua caliente para antes y después del partido.</p>
+        </article>
+
+        <article class="card service reveal">
+          <div class="service__icon"><i class="fa-solid fa-square-parking"></i></div>
+          <h3>Parqueadero privado</h3>
+          <p>Zona de parqueo vigilada y gratuita para que llegues y te vayas con total tranquilidad.</p>
+        </article>
+
+        <article class="card service reveal">
+          <div class="service__icon"><i class="fa-solid fa-mug-hot"></i></div>
+          <h3>Cafetería y zona de espera</h3>
+          <p>Bebidas, snacks y un cómodo espacio para la tribuna mientras esperas tu turno.</p>
+        </article>
+
+        <article class="card service reveal">
+          <div class="service__icon"><i class="fa-solid fa-shirt"></i></div>
+          <h3>Alquiler de balones y petos</h3>
+          <p>Olvidaste el balón o los petos. En recepción te los prestamos para completar el equipo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRECIOS / HORARIOS ===== -->
+  <section class="section section--dark" id="precios">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="tag tag--light">Tarifas</span>
+        <h2 class="section__title">Precios claros, sin sorpresas</h2>
+        <p class="section__lead">Elige tu cancha. Los precios son por hora de juego.</p>
+      </div>
+
+      <div class="grid grid--3 pricing">
+        <article class="price reveal">
+          <h3 class="price__name">Cancha 5 vs 5</h3>
+          <p class="price__desc">Ideal para partidos rápidos con amigos.</p>
+          <div class="price__row"><span>Día (6am – 6pm)</span><strong>$45.000<small>/h</small></strong></div>
+          <div class="price__row"><span>Noche (6pm – 11pm)</span><strong>$55.000<small>/h</small></strong></div>
+          <a href="#reservar" class="btn btn--outline btn--block">Reservar 5 vs 5</a>
+        </article>
+
+        <article class="price price--featured reveal">
+          <span class="price__ribbon">Más pedida</span>
+          <h3 class="price__name">Cancha 7 vs 7</h3>
+          <p class="price__desc">El equilibrio perfecto entre espacio y ritmo.</p>
+          <div class="price__row"><span>Día (6am – 6pm)</span><strong>$65.000<small>/h</small></strong></div>
+          <div class="price__row"><span>Noche (6pm – 11pm)</span><strong>$75.000<small>/h</small></strong></div>
+          <a href="#reservar" class="btn btn--accent btn--block">Reservar 7 vs 7</a>
+        </article>
+
+        <article class="price reveal">
+          <h3 class="price__name">Cancha 11 vs 11</h3>
+          <p class="price__desc">Para el partido completo, como en el estadio.</p>
+          <div class="price__row"><span>Día (6am – 6pm)</span><strong>$90.000<small>/h</small></strong></div>
+          <div class="price__row"><span>Noche (6pm – 11pm)</span><strong>$110.000<small>/h</small></strong></div>
+          <a href="#reservar" class="btn btn--outline btn--block">Reservar 11 vs 11</a>
+        </article>
+      </div>
+
+      <div class="promo reveal">
+        <div class="promo__text">
+          <i class="fa-solid fa-trophy"></i>
+          <div>
+            <h4>¿Torneos o plan mensual?</h4>
+            <p>Tenemos tarifas especiales para equipos fijos y campeonatos. Pregúntanos y armamos tu plan.</p>
+          </div>
+        </div>
+        <a href="https://wa.me/573014734171?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20planes%20mensuales%20y%20torneos" target="_blank" rel="noopener" class="btn btn--accent"><i class="fa-brands fa-whatsapp"></i> Solicitar info</a>
+      </div>
+
+      <div class="hours reveal">
+        <h4><i class="fa-regular fa-clock"></i> Horarios de atención</h4>
+        <div class="hours__grid">
+          <div class="hours__item"><span>Lunes a Viernes</span><strong>6:00 am – 11:00 pm</strong></div>
+          <div class="hours__item"><span>Sábados</span><strong>6:00 am – 12:00 am</strong></div>
+          <div class="hours__item"><span>Domingos y festivos</span><strong>7:00 am – 11:00 pm</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA ===== -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="tag">Galería</span>
+        <h2 class="section__title">Conoce la cancha</h2>
+        <p class="section__lead">Un vistazo a nuestras instalaciones antes de salir a la cancha.</p>
+      </div>
+
+      <div class="gallery reveal">
+        <button class="gallery__item gallery__item--big" data-img="img/galeria-1.jpg">
+          <img src="img/galeria-1.jpg" alt="Cancha sintética iluminada" loading="lazy" />
+        </button>
+        <button class="gallery__item" data-img="img/galeria-2.jpg">
+          <img src="img/galeria-2.jpg" alt="Balón en el césped" loading="lazy" />
+        </button>
+        <button class="gallery__item" data-img="img/galeria-3.jpg">
+          <img src="img/galeria-3.jpg" alt="Partido de fútbol" loading="lazy" />
+        </button>
+        <button class="gallery__item" data-img="img/galeria-4.jpg">
+          <img src="img/galeria-4.jpg" alt="Arco de fútbol" loading="lazy" />
+        </button>
+        <button class="gallery__item" data-img="img/galeria-5.jpg">
+          <img src="img/galeria-5.jpg" alt="Jugadores en la cancha" loading="lazy" />
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESERVAR ===== -->
+  <section class="section section--dark booking" id="reservar">
+    <div class="container booking__grid">
+      <div class="booking__intro reveal">
+        <span class="tag tag--light">Reservas</span>
+        <h2 class="section__title">Reserva tu cancha en segundos</h2>
+        <p class="section__lead">Selecciona el día, la hora y la cancha. Te confirmamos por WhatsApp al instante.</p>
+
+        <ul class="booking__list">
+          <li><i class="fa-solid fa-circle-check"></i> Confirmación inmediata</li>
+          <li><i class="fa-solid fa-circle-check"></i> Cancela hasta 3 horas antes sin costo</li>
+          <li><i class="fa-solid fa-circle-check"></i> Pago en efectivo, tarjeta o transferencia</li>
+        </ul>
+
+        <div class="booking__note">
+          <i class="fa-solid fa-circle-info"></i>
+          <p>¿Prefieres hablar con alguien? Escríbenos por WhatsApp y reservamos por ti.</p>
+        </div>
+      </div>
+
+      <form class="booking__form reveal" id="bookingForm" novalidate>
+        <h3 class="booking__form-title"><i class="fa-regular fa-calendar-check"></i> Nueva reserva</h3>
+
+        <div class="field">
+          <label for="court">Cancha</label>
+          <select id="court" name="court" required>
+            <option value="" disabled selected>Selecciona una cancha</option>
+            <option value="Cancha 5 vs 5">Cancha 5 vs 5</option>
+            <option value="Cancha 7 vs 7">Cancha 7 vs 7</option>
+            <option value="Cancha 11 vs 11">Cancha 11 vs 11</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="date">Fecha</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="field">
+            <label for="time">Hora</label>
+            <select id="time" name="time" required>
+              <option value="" disabled selected>Hora</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="duration">Duración</label>
+          <select id="duration" name="duration" required>
+            <option value="1" selected>1 hora</option>
+            <option value="2">2 horas</option>
+            <option value="3">3 horas</option>
+          </select>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+          </div>
+          <div class="field">
+            <label for="phone">Teléfono / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="301 473 4171" required />
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--accent btn--block btn--lg">
+          <i class="fa-brands fa-whatsapp"></i> Reservar y confirmar
+        </button>
+
+        <p class="booking__disclaimer">Al reservar aceptas nuestras políticas de cancelación.</p>
+        <div class="booking__feedback" id="bookingFeedback" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== OPINIONES ===== -->
+  <section class="section" id="opiniones">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="tag">Opiniones</span>
+        <h2 class="section__title">Lo que dicen nuestros jugadores</h2>
+        <p class="section__lead">Más de 5.000 jugadores ya reservaron su partido con nosotros.</p>
+      </div>
+
+      <div class="grid grid--3 testimonials">
+        <article class="testimonial reveal">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"La cancha está impecable y la luz de noche es brutal. Reservar por la página es súper fácil, quedamos fijos todos los martes."</p>
+          <div class="testimonial__author">
+            <div class="avatar">JC</div>
+            <div><strong>Juan Camilo R.</strong><span>Equipo Los Cracks</span></div>
+          </div>
+        </article>
+
+        <article class="testimonial reveal">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"Excelente atención, vestidores limpios y parqueadero seguro. Se nota que cuidan cada detalle. Totalmente recomendada."</p>
+          <div class="testimonial__author">
+            <div class="avatar">MA</div>
+            <div><strong>María Fernanda G.</strong><span>Jugadora frecuente</span></div>
+          </div>
+        </article>
+
+        <article class="testimonial reveal">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p>"Organizamos el torneo de la empresa y todo salió perfecto. Nos dieron tarifa especial y la logística fue de 10."</p>
+          <div class="testimonial__author">
+            <div class="avatar">DR</div>
+            <div><strong>Diego Ramírez</strong><span>Torneo corporativo</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO / UBICACIÓN ===== -->
+  <section class="section section--dark" id="contacto">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="tag tag--light">Contacto</span>
+        <h2 class="section__title">¿Dónde estamos?</h2>
+        <p class="section__lead">Ven a conocernos o escríbenos y te ayudamos a reservar.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <a class="contact__item" href="https://maps.google.com/?q=Cll+22+con+CRR+17,+Barrio+La+Castellana,+Planeta+Rica,+Cordoba" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot"></i>
+            <div><strong>Dirección</strong><span>Cll 22 con CRR 17, Barrio La Castellana, Planeta Rica, Córdoba</span></div>
+          </a>
+          <a class="contact__item" href="tel:+573014734171">
+            <i class="fa-solid fa-phone"></i>
+            <div><strong>Teléfono</strong><span>+57 301 473 4171</span></div>
+          </a>
+          <a class="contact__item" href="https://wa.me/573014734171" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div><strong>WhatsApp</strong><span>Escríbenos y reserva al instante</span></div>
+          </a>
+          <a class="contact__item" href="mailto:danieldiazdiaz59@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <div><strong>Correo</strong><span>danieldiazdiaz59@gmail.com</span></div>
+          </a>
+
+          <div class="contact__social">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://wa.me/573014734171" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="contact__map reveal">
+          <iframe
+            title="Ubicación de SINTÉTICA ARENA"
+            src="https://www.google.com/maps?q=Cll%2022%20con%20CRR%2017%2C%20Barrio%20La%20Castellana%2C%20Planeta%20Rica%2C%20C%C3%B3rdoba&output=embed"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo">
+          <span class="logo__ball"><i class="fa-solid fa-futbol"></i></span>
+          <span class="logo__text">SINTÉTICA<span>ARENA</span></span>
+        </a>
+        <p>La mejor cancha sintética para jugar con amigos, en familia o en torneo. Reserva en línea y a jugar.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Enlaces</h4>
+        <a href="#servicios">Instalaciones</a>
+        <a href="#precios">Precios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#reservar">Reservar</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <a href="tel:+573014734171"><i class="fa-solid fa-phone"></i> +57 301 473 4171</a>
+        <a href="mailto:danieldiazdiaz59@gmail.com"><i class="fa-solid fa-envelope"></i> danieldiazdiaz59@gmail.com</a>
+        <a href="https://maps.google.com/?q=Cll+22+con+CRR+17,+Barrio+La+Castellana,+Planeta+Rica,+Cordoba" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Planeta Rica, Córdoba</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> SINTÉTICA ARENA. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a class="whatsapp-float" href="https://wa.me/573014734171?text=Hola,%20quiero%20reservar%20una%20cancha" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Lightbox galería -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+    <img src="" alt="Imagen ampliada" id="lightboxImg" />
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
